@@ -1,0 +1,869 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+/* Navigation Bar CSS */
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    background-color: rgb(249,246,238);
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 300;
+    transition: 0.1s;
+}
+
+.navbar a:nth-of-type(2){
+    color: rgb(241,174,14);
+}
+
+.navbar a:hover{
+    color: rgb(241,174,14);
+}
+/* Navigation Bar CSS */
+
+/* Section 01 CSS */
+.section01{
+    width: 100%;
+    height: 700px;
+    padding-inline: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;    
+    background-color: rgb(249,246,238);
+}
+
+/* Section 01 - Box 01 */
+.section01 .box1{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(153,229,77);
+    border-radius: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    gap: 15px;
+    padding-left: 2.5%;
+    padding-right: 8%;
+    position: relative;
+    color: white;
+}
+
+.section01 .box1 h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.section01 .box1 p{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section01 .box1 h1{
+    font-size: 60px;
+    /* letter-spacing: -1px; */
+    line-height: 70px;
+}
+
+.section01 .box1 button{
+    width: 40%;
+    height: 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.section01 .box1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.section01 .box1 .box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: black;
+    position: absolute;
+    top: -25px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50PX;
+    text-align: center;
+    /* gap: 5px; */
+}
+
+.section01 .box1 .box h1{
+    font-size: 60px;
+}
+
+.section01 .box1 .box h3{
+    font-size: 18px;
+    line-height: 25px;
+}
+/* Section 01 - Box 01 */
+
+/* Section 01 - Box 02 */
+.section01 .box2{
+    width: 50%;
+    height: 600px;
+    background-image: url(/Assets/img\ 01.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7.5%;
+}
+/* Section 01 - Box 02 */
+/* Section 01 CSS */
+
+/* Section 02 CSS */
+.section02{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 50PX;
+    background-color: rgb(249,246,238);
+}
+
+/* Section 02 - Heading */
+.section02 .heading{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(249,246,238);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.section02 .heading h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.section02 .heading p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.section02 .heading p a{
+    text-decoration: none;
+    color: rgb(241,174,14);
+    font-weight: 500;
+}
+/* Section 02 - Heading */
+
+/* Section 02 - Photos Section */
+.section02 .row{
+    width: 55%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section02 .row .img{
+    width: 50%;
+    height: auto;
+    border-radius: 10%;
+    background-color: white;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.section02 .row .img img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+
+.section02 .row .img h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section02 .row .img button{
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: rgb(153,229,77);
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+    border-radius: 25px;
+}
+/* Section 02 - Photos Section */
+/* Section 02 CSS */
+
+/* Section 03 CSS */
+.section03{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 25px;
+}
+
+.section03 h1{
+    font-size: 50px;
+}
+
+.section03 p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.section03 .contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 30px;
+    transition: 0.1s;
+}
+
+.section03 .contact i{
+    font-size: 35px;
+    color: rgb(153,229,77);
+}
+
+.section03 .contact:hover{
+    color: rgb(153,229,77);
+}
+/* Section 03 CSS */
+
+/* Section 04 CSS */
+.section04{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(249,246,238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.section04 .row{
+    width: 75%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.section04 .row .box1{
+    width: 50%;
+    height: 600px;
+    border-radius: 6%;
+    background-image: url(/Assets/img\ 06.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section04 .row .box2{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: rgb(153,229,77);
+    border-radius: 6%;
+    text-align: center;
+    padding-inline: 5%;
+}
+
+.section04 .row .box2 h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section04 .row .box2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.section04 .row .box2 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section04 .row .box2 button{
+    width: 35%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    border: none;
+    transition: 0.2s;
+}
+
+.section04 .row .box2 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.section04 .row .box3{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: black;
+    border-radius: 6%;
+    text-align: center;
+    padding-inline: 5%;
+    color: white;
+}
+
+.section04 .row .box3 h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section04 .row .box3 h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.section04 .row .box3 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section04 .row .box3 button{
+    width: 35%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(153,229,77);
+    border-radius: 25px;
+    border: none;
+    transition: 0.2s;
+}
+
+.section04 .row .box3 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.section04 .row .box4{
+    width: 50%;
+    height: 600px;
+    border-radius: 6%;
+    background-image: url(/Assets/img\ 07.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+/* Section 04 CSS */
+
+/* Section 02 CSS */
+.section05{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    /* padding-top: 30px; */
+    padding-bottom: 50PX;
+    background-color: rgb(249,246,238);
+}
+
+/* Section 05 - Heading */
+.section05 .heading{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(249,246,238);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.section05 .heading h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.section05 .heading p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.section05 .heading p a{
+    text-decoration: none;
+    color: rgb(241,174,14);
+    font-weight: 500;
+}
+/* Section 05 - Heading */
+
+/* Section 05 - Photos Section */
+.section05 .row{
+    width: 55%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section05 .row .img{
+    width: 50%;
+    height: auto;
+    border-radius: 10%;
+    background-color: white;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.section05 .row .img img{
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.section05 .row .img p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section05 .row .img h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section05 .row .img button{
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: rgb(153,229,77);
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+.section05 .row .img button:hover{
+    background-color: rgb(241,174,14);
+    color: white;
+}
+/* Section 05 - Photos Section */
+/* Section 05 CSS */
+
+/* Section 06 CSS */
+.section06{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(153,229,77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    gap: 25px;
+}
+
+.section06 h1{
+    font-size: 50px;
+}
+
+.section06 p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.section06 .contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 30px;
+    transition: 0.1s;
+}
+
+.section06 .contact input{
+    width: 20%;
+    height: 40px;
+    border-radius: 205px;
+    border: none;
+    padding-inline: 1%;
+    font-size: 15px;
+}
+
+.section06 .contact button{
+    width: 9%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+/* Section 06 CSS */
+
+/* Section 07 CSS */
+.section07{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(249,246,238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.section07 .row{
+    width: 75%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.section07 .row .box1{
+    width: 50%;
+    height: 600px;
+    border-radius: 6%;
+    background-image: url(/Assets/img\ 06.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section07 .row .box2{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 6%;
+    text-align: center;
+    padding-inline: 5%;
+}
+
+.section07 .row .box2 h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section07 .row .box2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.section07 .row .box2 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section07 .row .box2 button{
+    width: 35%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(153,229,77);
+    border-radius: 25px;
+    border: none;
+    transition: 0.2s;
+}
+
+.section07 .row .box2 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.section07 .row .box3{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(153,229,77);
+    border-radius: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    gap: 15px;
+    padding-left: 2.5%;
+    padding-right: 8%;
+    position: relative;
+    color: white;
+}
+
+.section07 .row .box3 h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.section07 .row .box3 p{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section07 .row .box3 h1{
+    font-size: 60px;
+    /* letter-spacing: -1px; */
+    line-height: 70px;
+}
+
+.section07 .row .box3 button{
+    width: 40%;
+    height: 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.section07 .row .box3 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.section07 .row .box3 .box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: black;
+    position: absolute;
+    top: -25px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50PX;
+    text-align: center;
+    /* gap: 5px; */
+}
+
+.section07 .row .box3 .box h1{
+    font-size: 60px;
+}
+
+.section07 .row .box3 .box h3{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section07 .row .box4{
+    width: 50%;
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-radius: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section07 .row .box4 .b1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section07 .row .box4 .b1 .l{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* border: 1px solid; */
+}
+.section07 .row .box4 .b1 .l .img{
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37.5px;
+
+}
+
+.section07 .row .box4 .b1 .l .img img{
+    width: 50px;
+    height: 50px;
+}
+
+.section07 .row .box4 .b1 .r{
+    width: 75%;
+    height: auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section07 .row .box4 .b1 .r h3{
+    font-weight: 600;
+}
+
+.section07 .row .box4 .b1 .r p{
+    font-weight: 500;
+}
+
+.section07 .row .box4 .b1 .r p:nth-of-type(2){
+    color: rgb(153,229,77);
+}
+
+.section07 .row .box4 .b1 .r p:nth-of-type(2):hover{
+    color: black;
+}
+
+.section07 .row .box4 .b{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section07 .row .box4 .b .l{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* border: 1px solid; */
+}
+.section07 .row .box4 .b .l .img{
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37.5px;
+
+}
+
+.section07 .row .box4 .b .l .img img{
+    width: 50px;
+    height: 50px;
+}
+
+.section07 .row .box4 .b .r{
+    width: 75%;
+    height: auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section07 .row .box4 .b .r h3{
+    font-weight: 600;
+}
+
+.section07 .row .box4 .b .r p{
+    font-weight: 500;
+}
+/* Section 07 CSS */
+
+/* Section 08 CSS */
+.section08{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(51,51,51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-direction: column;
+    color: white;
+}
+
+.section08  p{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.section08 p:nth-of-type(2){
+    font-size: 13px;
+}
+/* Section 08 CSS */
